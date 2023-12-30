@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+   <title>Відлік часу до Нового Року</title>
+</head>
+
+<body class="countdown">
+   <div class="wrapper">
+      <main class="page-countdown">
+         <section class="page-countdown__countdown countdown">
+            <h1 class="countdown__year">2024</h1>
+            <p class="countdown__text">Відлік часу до Нового Року</p>
+            <div class="countdown__content">
+               <div class="countdown__box">
+                  <div class="countdown__counter" id="day"></div>
+                  <div class="countdown__caption">Днів</div>
+               </div>
+               <div class="countdown__box">
+                  <div class="countdown__counter" id="hour"></div>
+                  <div class="countdown__caption">Годин(и)</div>
+               </div>
+               <div class="countdown__box">
+                  <div class="countdown__counter" id="minute"></div>
+                  <div class="countdown__caption">Хвилин(и)</div>
+               </div>
+               <div class="countdown__box">
+                  <div class="countdown__counter" id="second"></div>
+                  <div class="countdown__caption">Секунд(и)</div>
+               </div>
+            </div>
+            <a class="countdown__back" href="/New-Year-ukr/" aria-label="Повернутися назад" title="Повернутися назад">
+               <svg height="50px" width="50px" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <polygon points="352,128.4 319.7,96 160,256 160,256 160,256 319.7,416 352,383.6 224.7,256 " />
+               </svg>
+            </a>
+         </section>
+      </main>
+   </div>
+   <script src="js/countdown.js"></script>
+</body>
+
+</html>

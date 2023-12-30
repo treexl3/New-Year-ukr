@@ -1,0 +1,99 @@
+.page-countdown {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  padding: 80px 13%;
+  background-color: #121317;
+}
+@media (max-width: 460px) {
+  .page-countdown {
+    padding: 60px 13%;
+  }
+}
+.countdown {
+  text-align: center;
+}
+.countdown__year {
+  color: #941623;
+  font-size: 8vw;
+  margin-bottom: 0.5vw;
+}
+@media (max-width: 605px) {
+  .countdown__year {
+    font-size: 10vw;
+    margin-bottom: 1.5vw;
+  }
+}
+@media (max-width: 460px) {
+  .countdown__year {
+    font-size: 16vw;
+    margin-bottom: 3vw;
+  }
+}
+.countdown__text {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3.5vw;
+  font-weight: 700;
+  margin-bottom: 4vw;
+}
+@media (max-width: 460px) {
+  .countdown__text {
+    font-size: 4vw;
+    margin-bottom: 5vw;
+  }
+}
+.countdown__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+@media (max-width: 460px) {
+  .countdown__content {
+    gap: 1rem;
+  }
+}
+.countdown__box {
+  border-radius: 10px;
+  height: 14.25rem;
+  background-color: #21242b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 10px solid #941623;
+}
+.countdown__counter {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 0.6vw;
+}
+.countdown__caption {
+  font-size: 1.1rem;
+  color: #b2b5ba;
+}
+.countdown__back {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+@media (max-width: 605px) {
+  .countdown__back {
+    top: 20px;
+    left: 20px;
+  }
+}
+@media (max-width: 460px) {
+  .countdown__back {
+    top: 10px;
+    left: 10px;
+  }
+}
+.countdown__back svg {
+  fill: #fff;
+}
